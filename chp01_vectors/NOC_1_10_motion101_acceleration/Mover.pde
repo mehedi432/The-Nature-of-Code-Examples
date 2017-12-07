@@ -10,7 +10,8 @@ class Mover {
   PVector acceleration;
   // The Mover's maximum speed
   float topspeed;
-
+  
+//constructor Function
   Mover() {
     // Start in the center
     position = new PVector(width/2,height/2);
